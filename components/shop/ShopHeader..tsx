@@ -26,12 +26,13 @@ export default function ShopHeader() {
   const [wishlistCount] = useState(5);
 
   const categories = [
-    { name: "Electronics", href: "/categories/electronics" },
-    { name: "Supermarket", href: "/categories/supermarket" },
-    { name: "Home & Furniture", href: "/categories/home-furniture" },
-    { name: "Sports & Leisure", href: "/categories/sports-leisure" },
-    { name: "Fashion", href: "/categories/fashion" },
-    { name: "Health & Beauty", href: "/categories/health-beauty" },
+    { name: "MEN", href: "/categories/electronics" },
+    { name: "WEMEN", href: "/categories/supermarket" },
+    { name: "KIDS", href: "/categories/home-furniture" },
+    { name: "HOME", href: "/categories/sports-leisure" },
+{ name: "Health & Beauty", href: "/categories/health-beauty" },
+    //{ name: "Fashion", href: "/categories/fashion" },
+    
   ];
 
   const mobileNavItems = [
