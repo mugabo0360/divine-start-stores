@@ -1,7 +1,8 @@
 import React from 'react'
 import { Button } from '../ui/button'
+import { Product } from '@/public/types/products'
 
-export default function VerticalProductCard({Product}: {Product:any }) {
+export default function VerticalProductCard({Product}: {Product:Product }) {
   return (
        <div className='border border-gray-200 p-4 rounded-lg bg-white' key={Product.id}  >
                     <img src= {Product.image}

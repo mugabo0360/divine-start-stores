@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
+import Image from "next/image";
 
 export default function HorizontalProductCard({ Product }: { Product: any }) {
   return (
@@ -9,7 +10,7 @@ export default function HorizontalProductCard({ Product }: { Product: any }) {
     >
       {/* Product Image */}
       <div className="flex-shrink-0">
-        <img
+        <Image
           src={Product.image}
           alt={Product.name}
           width={160}

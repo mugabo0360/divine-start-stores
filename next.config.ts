@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
     ],
   /* config options here */
 },
-ingonreDuringBuild: true
+ingonreDuringBuild: true,
 };
 
 export default nextConfig;
