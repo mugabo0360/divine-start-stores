@@ -92,7 +92,7 @@ const Products = activeCategory.Products || [];
           <div className='py-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4'  >
             {Products.map((Product) => {
               return ( 
-                   <VerticalProductCard Product={Product}  />
+                   <VerticalProductCard key ={Product.id} Product={Product}  />
               );
             })}
           </div>
