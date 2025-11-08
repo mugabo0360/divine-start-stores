@@ -12,7 +12,7 @@ export default function DashboardLayout( { children }: { children: React.ReactNo
           "--header-height": "calc(var(--spacing) * 12)",
         } as React.CSSProperties
       }
-    >j
+    >
       <AppSidebar variant="inset" />
       <SidebarInset>
         <SiteHeader />
